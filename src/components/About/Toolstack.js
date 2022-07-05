@@ -4,11 +4,9 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
   SiGithub,
 } from 'react-icons/si';
 import {
-  DiAtlassian,
   DiAws,
   DiDatabase,
   DiDocker,
@@ -18,7 +16,6 @@ import {
   DiStackoverflow,
   DiTerminal,
   DiUbuntu,
-  DiVisualstudio,
   DiWindows,
 } from 'react-icons/di';
 
@@ -39,9 +36,6 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiVisualstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAws />

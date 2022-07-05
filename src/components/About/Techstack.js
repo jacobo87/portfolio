@@ -1,17 +1,12 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { CgCPlusPlus } from 'react-icons/cg';
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiBootstrap,
-  DiPython,
-  DiDjango,
-  DiJava,
   DiRasberryPi,
 } from 'react-icons/di';
-import { SiJupyter } from 'react-icons/si';
 
 function Techstack() {
   return (
