@@ -17,6 +17,7 @@ function AboutCard() {
               href="https://generalassemb.ly/"
               target="_blank"
               rel="noreferrer"
+              className="purple"
             >
               General Assembly
             </a>
