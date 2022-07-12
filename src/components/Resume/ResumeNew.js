@@ -6,13 +6,11 @@ import pdf from "../../Assets/cv-Jacobo-Azmani-En.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import resumeLink from "../../Assets/cv-Jacobo-Azmani-En.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "https://github.com/jacobo87/portfolio/blob/main/src/Assets/cv-Jacobo-Azmani-En.pdf";
-
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
+  const [width, setWidth] = useState(720);
 
   useEffect(() => {
     setWidth(window.innerWidth);
